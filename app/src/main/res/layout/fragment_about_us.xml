@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    tools:context=".fragments.AboutUsFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:text="Tycho Technologies is the business of renting an entire aircraft(i.e., chartering) as opposed to individual aircraft seats(i.e., purchasing a ticket through a traditional airline). While the airlines specialize in selling transportation by the seat, air charter companies focus on individual privae aircraft and itineraries, urgent or time- sensitive cargo, air ambulance service, and other forms of adhoc air transportation."
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
