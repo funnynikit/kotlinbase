@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.kotlindemo.kotlinbase.R
 
-class ContcatUsFragment : Fragment() {
-
+class ContcatUsFragment : Fragment()
+{
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -17,5 +17,4 @@ class ContcatUsFragment : Fragment() {
         var view : View = inflater.inflate(R.layout.fragment_contcat_us, container, false)
         return view;
     }
-
 }

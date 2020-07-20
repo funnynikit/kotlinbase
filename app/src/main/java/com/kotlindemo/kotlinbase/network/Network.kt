@@ -6,6 +6,7 @@ import android.net.NetworkInfo
 import androidx.core.content.ContextCompat
 
 object Network {
+
     fun checkNetwork(context: Context): Boolean {
         try {
             val manager = ContextCompat.getSystemService(context, ConnectivityManager::class.java)

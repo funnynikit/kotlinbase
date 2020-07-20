@@ -4,13 +4,17 @@ import com.kotlindemo.kotlinbase.model.Data
 import com.kotlindemo.kotlinbase.model.EmpDelete
 import com.kotlindemo.kotlinbase.model.EmpResponse
 import com.kotlindemo.kotlinbase.model.Employee
+import io.reactivex.Observable
 import retrofit2.Call
 import retrofit2.http.*
 
 interface ApiInterface {
 
     @GET("employees")
-    fun getAllEmployees(): Call<EmpResponse>
+    fun getEmployees(): Call<EmpResponse>
+
+    @GET("employees")
+    fun getAllEmployees(): Observable<EmpResponse>
 
     @POST("create")
     fun createEmployee(@Body data: Data): Call<Employee>
